@@ -12,6 +12,14 @@ function obtenerInformacion() {
     g_celsius.innerHTML = temperatura  + " °C";
     g_kelvin.innerHTML = kel + " °K";
     g_fahrenheit.innerHTML = fah + " °F";
+
+    // Para mostrar en consola:
+
+    console.log(`Ingresa: ${temperatura} °C`);
+    console.log("Salida:");
+    console.log(`${kel} °K`);
+    console.log(`${fah} °F`);
+
 }
 
 
